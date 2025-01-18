@@ -26,7 +26,7 @@ export const sendEmail = async ({
       provider: resend({ token: config.env.resendToken || '' }),
     },
     body: {
-      from: 'UNI University <hello.albioncodes.com>',
+      from: 'UNI University <albion8786@7202027325945.hostingkunde.de>',
       to: [email],
       subject,
       html: message,
